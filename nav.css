@@ -1693,6 +1693,19 @@ i {
     }
 } */
 
+.btn--download {
+    padding: 18px 32px;
+    font-size: 22px;
+    position: fixed;
+    left: calc(50% - 70px);
+    bottom: 20px;
+    z-index: 2000;
+    box-shadow: 0 6px 23px rgba(0, 0, 0, 0.45);
+    border-radius: 50px;
+    background: linear-gradient(to bottom, rgba(40, 180, 131, 1));
+}
+
+
 @media (max-width: 480px) {
     .form-container {
         padding: 1.5rem;
@@ -1712,11 +1725,10 @@ i {
     .btn2 {
         padding: 0.45rem 1.2rem;
     }
-}
 
-.btn--download {
-    padding: 18px 32px;
-    font-size: 22px;
+    .btn--download {
+    padding: 10px 20px;
+    font-size: 12px;
     position: fixed;
     left: calc(50% - 70px);
     bottom: 20px;
@@ -1724,7 +1736,9 @@ i {
     box-shadow: 0 6px 23px rgba(0, 0, 0, 0.45);
     border-radius: 50px;
     background: linear-gradient(to bottom, rgba(40, 180, 131, 1));
+  }
 }
+
 
 
 /* access Key Below */
@@ -1745,5 +1759,6 @@ i {
   <textarea name="message" required></textarea>
   <button type="submit">Submit</button>
 </form>
+
 
 */
