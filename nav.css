@@ -1726,6 +1726,10 @@ i {
         padding: 0.45rem 1.2rem;
     }
 
+    .about-us_section {
+bottom: 200px;
+  }
+
     .btn--download {
     padding: 10px 20px;
     font-size: 12px;
@@ -1762,3 +1766,4 @@ i {
 
 
 */
+
